@@ -35,7 +35,7 @@ window.Pusher = require('pusher-js');
 // Pusher.logToConsole = true;
 window.Echo = new Echo({
     broadcaster: 'pusher',
-    key: '0507ce36622be79abc0c',
-    cluster: 'eu',
+    key: '647e792a22a61bce3136',
+    cluster: 'mt1',
     encrypted: true
 });

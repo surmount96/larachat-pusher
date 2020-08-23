@@ -2,10 +2,10 @@
 
 @section('content')
     <div class="flex flex-wrap" style="height: 100vh">
-        <div class="lg:w-1/2 md:w-1/2 sm:w-1/2 lg:flex md:flex hidden w-full p-12">
+        <div class="lg:w-1/2 md:w-1/2 lg:flex md:flex hidden w-full p-12">
             <img src="{{ asset('img/arrived.svg') }}" alt="">
         </div>
-        <div class="lg:w-1/2 md:w-1/2 sm:w-1/2 w-full bg-blue-deep">
+        <div class="lg:w-1/2 md:w-1/2 w-full bg-blue-deep">
             <div class=" ml-auto">
                 <div class="lg:w-6/12 md:w-6/12 sm:w-5/12 py-3 ml-auto flex">
                     <a href="/login" class="rounded-l-full bg-yellow text-white py-2 px-8">sign in</a>

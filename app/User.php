@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Cache;
 
 class User extends Authenticatable
 {
-    use Notifiable, Uuids;
+    use Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -18,7 +18,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','id'
+        'name', 'email', 'password'
     ];
 
     /**
@@ -37,7 +37,6 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
-        'id' => 'string',
     ];
 
     protected $appends = ['isOnline'];

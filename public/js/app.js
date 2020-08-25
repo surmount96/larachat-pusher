@@ -1988,7 +1988,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      'message': null,
+      message: null,
       messages: [],
       receiver_id: '',
       auth_user: '',
@@ -78163,11 +78163,11 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
  */
 
 
-window.Pusher = __webpack_require__(/*! pusher-js */ "./node_modules/pusher-js/dist/web/pusher.js"); // Pusher.logToConsole = true;
-
+window.Pusher = __webpack_require__(/*! pusher-js */ "./node_modules/pusher-js/dist/web/pusher.js");
+Pusher.logToConsole = true;
 window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   broadcaster: 'pusher',
-  key: '0507ce36622be79abc0c',
+  key: '0c46da4e069b3bd5b7a8',
   cluster: 'eu',
   encrypted: true
 });
@@ -78279,8 +78279,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/ayanwoye/Documents/chatApp1/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/ayanwoye/Documents/chatApp1/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/ayanwoye/Documents/chatApp/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/ayanwoye/Documents/chatApp/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

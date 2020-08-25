@@ -75,7 +75,7 @@
         },
         data(){
             return {
-                'message': null,
+                message: null,
                 messages: [],
                 receiver_id:'',
                 auth_user:'',

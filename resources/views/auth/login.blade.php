@@ -37,13 +37,6 @@
                         @endif
                     </div>
                     <button type="submit" class="text-body-2 bg-yellow rounded-full text-white w-40 py-3 my-4">Sign in</button>
-                    <div class="row">
-                        <div class="col-12 text-right">
-                            <a class="text-sky-blue text-body-2 " href="{{ route('password.request') }}">
-                                {{ __('Forgot Your Password?') }}
-                            </a>
-                        </div>
-                    </div>
                 </form>
             </div>
         </div>
